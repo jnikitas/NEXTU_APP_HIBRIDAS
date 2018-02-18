@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de vida de Jorge Esteban Nikitas - Educación</title>
+  </head>
+  <body>
+    <header>
+      <h1><img src="images/logo.svg" alt="Logo del perfil">Hoja de Vida</h1>
+    </header>
+    <section id="datos personales">
+      <h2>Datos personales</h2>
+      <h3 style="display:inline;">Nombres: </h3>Jorge Esteban<br>
+      <h3 style="display:inline;">Apellidos: </h3>Nikitas<br>
+      <h3 style="display:inline;">Lugar de Nacimiento: </h3>San Isidro<br>
+      <h3 style="display:inline;">Fecha de Nacimiento: </h3>20 de Junio de 1982<br>
+    </section>
+    <nav>
+      <h2>Enlaces</h2>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section id="Educacion">
+      <h2>Educación</h2>
+      <table border="1">
+        <tr>
+          <td>Año</td>
+          <td>Institución</td>
+          <td>Lugar</td>
+          <td>¿Culminó?</td>
+        </tr>
+        <tr>
+          <td>1989</td>
+          <td>Escuela Nro 21</td>
+          <td>Victoria</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>1994</td>
+          <td>EET Nro 3</td>
+          <td>San Isidro</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>UTN</td>
+          <td>Lugano</td>
+          <td>No</td>
+        </tr>
+      </table>
+      <form>
+        <h3>Agregar Estudios</h3>
+        <p>
+          <p>
+            <label for="lblAnoEstudio" >Año de estudio:<label/>
+              <input type="number" name="nudAnioEstudio" min="2000" max="2018" placeholder="2018">
+          </p>
+          <p>
+            <label for="lblInstitucion" >Institución:<label/>
+              <input type="txtInstitucion" placeholder="Nombre de la institución">
+          </p>
+          <p>
+            <label for="lblLugar" >Lugar:<label/>
+              <input type="txtLugar" placeholder="Nombre del Lugar">
+          </p>
+          <p>
+            <label for="rbCulmino">¿Culminó?<label/><br>
+              <input name="rbCulmino" type="radio">Si</input><br>
+              <input name="rbCulmino" type="radio">No</input>
+          </p>
+          <p>
+            <input type="submit" value="Enviar"></input>
+          </p>
+        </p>
+      </form>
+    </section>
+    <footer>
+      <p>Hecho por: Jorge Esteban Nikitas</p>
+      <p>Contactos <a href="mailto:jnikitas@gmail.com">jnikitas@gmail.com</a>, 54-911-5104-9332</p>
+    </footer>
+  </body>
+</html>
